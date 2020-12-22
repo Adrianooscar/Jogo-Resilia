@@ -1,0 +1,59 @@
+<html>
+
+<html lang="pt-BR">
+ 
+ <head>
+
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="game.css">
+ <title>Game</title>
+ 
+ <script>
+ 
+    var nome_dos_personagens =["Presto ", " Hank "," Diana ", " Eric "];
+    
+    var nome_dos_personagens_escolhido = prompt ("Escolha um dos personagens. " + nome_dos_personagens + " Digite o nome do personagem escolhido.")
+    
+    
+    alert ( nome_dos_personagens_escolhido + "  Acorda na Caverna do Dragão");
+    var pergunta = prompt("A sua frente tem um portal. Você vai entrar nesse portal?");
+    
+     switch(pergunta){
+      
+        case "sim":
+            alert("O portal na verdade é um buraco negro e você morreu.");
+            break;
+        case "não": 
+            alert('Pegue o mapa em sua bolsa e desvende o enigma.');
+            break;
+        default:
+            alert ('Responda apenas com SIM ou NÃO');
+     }
+
+     var pergunta2 = prompt("À sua frente há uma parede, nela possui dispositivos giratórios, deseja gira-los?")
+
+     switch(pergunta2){
+
+        case "sim":
+            alert ("Parabéns, você saiu da Caverna do dragão.");
+            break;
+        case "não":
+            alert ("Que pena, você perdão. Atualize e jogue novamente.");
+            break;
+        default:
+            alert ("Responda apenas com SIM ou NÃO")
+     }
+       
+    
+    
+     </script>
+ </head>
+
+ <body class= "bg">
+
+<img src="https://aosugo.files.wordpress.com/2011/11/caverna20131.jpg">
+ 
+
+ </body>
+
+</html>
